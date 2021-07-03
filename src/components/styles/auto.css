@@ -1,0 +1,64 @@
+#auto-content{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#car-card
+{
+    overflow: hidden;
+}
+
+.col{
+    float: left;
+    width: 33%;
+    height: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+}
+
+.left-corner{
+   position: absolute;
+   top: 0%;
+   left: 0%;
+}
+
+.right-corner{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+ }
+
+ .third-col{
+     padding-top: 40px;
+ }
+.first-col{
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+ .third-col th,.third-col td{
+   height: 30px;
+   padding: 10px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ #left-arrow{
+     position: absolute;
+     top: 35%;
+     left: 10px;
+ }
+
+ .arrow{
+     cursor: pointer;
+     z-index: 2;
+ }
+
+ #right-arrow{
+    position: absolute;
+    top: 35%;
+    right: 10px;
+}

@@ -1,0 +1,11 @@
+#racing{
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#racing iframe{
+    height: 100%;
+    width: 100%;
+}
